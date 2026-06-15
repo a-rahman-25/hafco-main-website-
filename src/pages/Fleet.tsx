@@ -34,8 +34,21 @@ import daewooFaceBlurred from '@/assets/trucks-new/daewoo-face-blurred.png.asset
 import sitrakFrontBlurred from '@/assets/trucks-new/sitrak-front-blurred.png.asset.json';
 import sitrakSideBlurred from '@/assets/trucks-new/sitrak-side-blurred.png.asset.json';
 
+const resolveTruckAsset = (url: string) =>
+  url.startsWith('/__l5e/')
+    ? `https://bc9520c6-75a4-42af-9611-48a8a0c07dcf.lovableproject.com${url}`
+    : url;
+
 const Fleet = () => {
   const { t, language } = useLanguage();
+
+  const manWhiteBlurredUrl = resolveTruckAsset(manWhiteBlurred.url);
+  const manRedBlurredUrl = resolveTruckAsset(manRedBlurred.url);
+  const mercedesWhiteBlurredUrl = resolveTruckAsset(mercedesWhiteBlurred.url);
+  const mercedesBlueBlurredUrl = resolveTruckAsset(mercedesBlueBlurred.url);
+  const daewooFaceBlurredUrl = resolveTruckAsset(daewooFaceBlurred.url);
+  const sitrakFrontBlurredUrl = resolveTruckAsset(sitrakFrontBlurred.url);
+  const sitrakSideBlurredUrl = resolveTruckAsset(sitrakSideBlurred.url);
 
   const brands: Brand[] = [
     {
@@ -46,8 +59,8 @@ const Fleet = () => {
       originAr: 'ألمانيا · هندسة للمسافات الطويلة',
       taglineEn: 'European precision built to outlast the harshest desert routes.',
       taglineAr: 'دقة أوروبية مصممة لتتحمل أصعب طرق الصحراء.',
-      hero: manWhiteBlurred.url,
-      gallery: [manRedBlurred.url, fleet3, fleet4, fleet6, fleet8, fleet9, fleet11],
+      hero: manWhiteBlurredUrl,
+      gallery: [manRedBlurredUrl, fleet3, fleet4, fleet6, fleet8, fleet9, fleet11],
       models: [
         { name: 'TGX 18.510', years: '2020' },
         { name: 'TGX 18.500', years: '2019' },
@@ -66,8 +79,8 @@ const Fleet = () => {
       originAr: 'ألمانيا · معيار النقل الثقيل',
       taglineEn: 'A proven workhorse — the backbone of our long-haul operations.',
       taglineAr: 'حصان عمل مجرّب — العمود الفقري لعملياتنا على المدى الطويل.',
-      hero: mercedesWhiteBlurred.url,
-      gallery: [mercedesBlueBlurred.url, fleet5, fleet7, fleet12, fleet13, fleet14, fleet15, fleet18],
+      hero: mercedesWhiteBlurredUrl,
+      gallery: [mercedesBlueBlurredUrl, fleet5, fleet7, fleet12, fleet13, fleet14, fleet15, fleet18],
       models: [
         { name: 'Actros 2040', years: '2011' },
         { name: 'Actros 1846', years: '2010' },
@@ -84,8 +97,8 @@ const Fleet = () => {
       originAr: 'كوريا الجنوبية · الجيل الجديد',
       taglineEn: 'Modern power, factory-fresh — added to the fleet to expand capacity.',
       taglineAr: 'قوة حديثة من المصنع — أضيفت إلى الأسطول لتوسيع الطاقة الاستيعابية.',
-      hero: daewooFaceBlurred.url,
-      gallery: [daewooFaceBlurred.url, fleet17],
+      hero: daewooFaceBlurredUrl,
+      gallery: [daewooFaceBlurredUrl, fleet17],
       models: [{ name: 'Maximus 4542', years: '2023' }],
     },
     {
@@ -96,8 +109,8 @@ const Fleet = () => {
       originAr: 'الصين · CNHTC · أحدث الإضافات',
       taglineEn: 'Our latest investment — a brand-new 2024 fleet ready for any mission.',
       taglineAr: 'أحدث استثماراتنا — أسطول جديد كلياً موديل 2024 جاهز لأي مهمة.',
-      hero: sitrakSideBlurred.url,
-      gallery: [sitrakFrontBlurred.url, sitrakSideBlurred.url, fleetHero],
+      hero: sitrakSideBlurredUrl,
+      gallery: [sitrakFrontBlurredUrl, sitrakSideBlurredUrl, fleetHero],
       models: [{ name: 'G7 440', years: '2024' }],
     },
   ];
@@ -114,7 +127,7 @@ const Fleet = () => {
       <div>
         {/* Hero */}
         <section className="relative h-[70vh] min-h-[500px] flex items-end overflow-hidden -mt-16">
-          <HeroSlideshow images={[sitrakSideBlurred.url, sitrakFrontBlurred.url, mercedesWhiteBlurred.url, manWhiteBlurred.url, daewooFaceBlurred.url]} interval={8000} />
+          <HeroSlideshow images={[sitrakSideBlurredUrl, sitrakFrontBlurredUrl, mercedesWhiteBlurredUrl, manWhiteBlurredUrl, daewooFaceBlurredUrl]} interval={8000} />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent" />
           <div className="relative z-10 container mx-auto px-4 pb-16">
             <ScrollReveal variant="fadeUp">
