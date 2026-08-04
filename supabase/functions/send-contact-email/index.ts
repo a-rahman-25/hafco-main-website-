@@ -117,7 +117,7 @@ const handler = async (req: Request): Promise<Response> => {
     const safePhone = escapeHtml(phone);
     const safeMessage = escapeHtml(message);
 
-    const recipientEmails = ["mohamedhamed@hafcobigmovers.com", "a.rahman@hafcobigmovers.com"];
+    const recipientEmails = ["mohamedhamed@hafcobigmover.com", "a.rahman@hafcobigmover.com"];
 
     const emailHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
