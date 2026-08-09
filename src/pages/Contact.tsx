@@ -245,7 +245,7 @@ const Contact = () => {
                   <p className="text-muted-foreground mb-2">
                     {language === 'ar' ? 'العنوان المختصر:' : 'Short Address:'} <span className="font-phone font-bold text-primary tracking-wider">EQGA2837</span>
                   </p>
-                  <a href="https://maps.google.com/?q=EQGA2837+Dammam+Saudi+Arabia" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors text-lg">
+                  <a href="https://www.google.com/maps?q=26.7851944,49.8449722&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,100813469,94286869,100820247,100813009,100822504&g_ep=CAISEjI2LjMxLjUuOTU0MzA2MDQzMBgAINeCAypnLDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDEwMDgxMzQ2OSw5NDI4Njg2OSwxMDA4MjAyNDcsMTAwODEzMDA5LDEwMDgyMjUwNEICU0E%3D&skid=55f28ea5-1815-4beb-8f09-051e42e02823&g_st=iw" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors text-lg">
                     <MapPin className="h-5 w-5" />
                     {language === 'ar' ? 'افتح في خرائط جوجل' : 'Open in Google Maps'}
                   </a>
