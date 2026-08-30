@@ -44,6 +44,7 @@ const privacyContent: LegalContent = {
           'لأي استفسار أو طلب متعلق بالخصوصية، تواصلوا معنا عبر info@hafcobigmover.com أو على الرقم ٠٥٣٥٥٥٧٨٧٤.',
         ],
       },
+    },
     {
       title: { en: '2. Information We Collect', ar: '٢. المعلومات التي نجمعها' },
       body: {
