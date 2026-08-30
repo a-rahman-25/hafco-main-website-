@@ -123,15 +123,15 @@ const privacyContent: LegalContent = {
     {
       title: { en: '7. Children\'s Privacy', ar: '٧. خصوصية الأطفال' },
       body: {
-        en: 'Our services are intended for businesses and adults. We do not knowingly collect personal information from children under 13.',
-        ar: 'خدماتنا موجهة للشركات والبالغين، ولا نجمع عن قصد أي معلومات شخصية من الأطفال دون سن ١٣ عاماً.',
+        en: ['Our services are intended for businesses and adults. We do not knowingly collect personal information from children under 13.'],
+        ar: ['خدماتنا موجهة للشركات والبالغين، ولا نجمع عن قصد أي معلومات شخصية من الأطفال دون سن ١٣ عاماً.'],
       },
     },
     {
       title: { en: '8. Changes to This Policy', ar: '٨. التعديلات على هذه السياسة' },
       body: {
-        en: 'We may update this policy from time to time. The latest version will always be published on this page.',
-        ar: 'قد نقوم بتحديث هذه السياسة من وقت لآخر، وستكون النسخة الأحدث متاحة دائماً على هذه الصفحة.',
+        en: ['We may update this policy from time to time. The latest version will always be published on this page.'],
+        ar: ['قد نقوم بتحديث هذه السياسة من وقت لآخر، وستكون النسخة الأحدث متاحة دائماً على هذه الصفحة.'],
       },
     },
     {
@@ -188,22 +188,22 @@ const termsContent: LegalContent = {
     {
       title: { en: '3. Intellectual Property', ar: '٣. الملكية الفكرية' },
       body: {
-        en: 'All content on this website — including text, photographs, the HAFCO logo, and design — is the property of HAFCO and may not be reproduced without written permission.',
-        ar: 'جميع محتويات هذا الموقع — بما فيها النصوص والصور وشعار هافكو والتصميم — ملك لهافكو ولا يجوز إعادة إنتاجها دون إذن كتابي.',
+        en: ['All content on this website — including text, photographs, the HAFCO logo, and design — is the property of HAFCO and may not be reproduced without written permission.'],
+        ar: ['جميع محتويات هذا الموقع — بما فيها النصوص والصور وشعار هافكو والتصميم — ملك لهافكو ولا يجوز إعادة إنتاجها دون إذن كتابي.'],
       },
     },
     {
       title: { en: '4. Limitation of Liability', ar: '٤. حدود المسؤولية' },
       body: {
-        en: 'While we strive for accuracy, the website is provided "as is" without warranties. Liability for transport services is governed exclusively by the applicable contract of carriage.',
-        ar: 'نسعى دائماً إلى الدقة، إلا أن الموقع يُقدَّم «كما هو» دون ضمانات، وتقتصر مسؤولية خدمات النقل على ما هو منصوص عليه في عقد النقل المعمول به.',
+        en: ['While we strive for accuracy, the website is provided "as is" without warranties. Liability for transport services is governed exclusively by the applicable contract of carriage.'],
+        ar: ['نسعى دائماً إلى الدقة، إلا أن الموقع يُقدَّم «كما هو» دون ضمانات، وتقتصر مسؤولية خدمات النقل على ما هو منصوص عليه في عقد النقل المعمول به.'],
       },
     },
     {
       title: { en: '5. Governing Law', ar: '٥. القانون المعمول به' },
       body: {
-        en: 'These terms are governed by the laws of the Kingdom of Saudi Arabia. Any dispute is subject to the competent courts in the Eastern Province.',
-        ar: 'تخضع هذه الشروط لأنظمة المملكة العربية السعودية، وتختص المحاكم المختصة في المنطقة الشرقية بالنظر في أي نزاع.',
+        en: ['These terms are governed by the laws of the Kingdom of Saudi Arabia. Any dispute is subject to the competent courts in the Eastern Province.'],
+        ar: ['تخضع هذه الشروط لأنظمة المملكة العربية السعودية، وتختص المحاكم المختصة في المنطقة الشرقية بالنظر في أي نزاع.'],
       },
     },
     {
