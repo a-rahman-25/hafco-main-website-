@@ -31,6 +31,8 @@ const AnimatedRoutes = () => {
         <Route path="/work" element={<Work />} />
         
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<LegalPage kind="privacy" />} />
+        <Route path="/terms" element={<LegalPage kind="terms" />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
