@@ -22,23 +22,27 @@ const privacyContent: LegalContent = {
   title: { en: 'Privacy Policy', ar: 'سياسة الخصوصية' },
   updated: { en: 'Last updated: August 2026', ar: 'آخر تحديث: أغسطس ٢٠٢٦' },
   intro: {
-    en: 'HAFCO — Big Movers ("HAFCO", "we", "us") operates this website and related mobile applications. This policy explains what information we collect, how we use it, and the choices you have. We keep data collection to the minimum required to operate our services.',
-    ar: 'تعمل شركة هافكو — للنقل الثقيل («هافكو»، «نحن») على تشغيل هذا الموقع والتطبيقات المرتبطة به. توضح هذه السياسة المعلومات التي نجمعها، وكيفية استخدامها، والخيارات المتاحة لك. نحصر جمع البيانات في الحد الأدنى اللازم لتشغيل خدماتنا.',
+    en: 'HAFCO — Big Movers ("HAFCO", "we", "us") operates the "Hafco Driver Portal" mobile application and this website. This policy explains what information we collect, how we use it, and the choices you have. We keep data collection to the minimum required to operate our services.',
+    ar: 'تعمل شركة هافكو — للنقل الثقيل («هافكو»، «نحن») على تشغيل تطبيق «بوابة سائق هافكو» (Hafco Driver Portal) وهذا الموقع. توضح هذه السياسة المعلومات التي نجمعها، وكيفية استخدامها، والخيارات المتاحة لك. نحصر جمع البيانات في الحد الأدنى اللازم لتشغيل خدماتنا.',
   },
   sections: [
-    {
-      title: { en: '1. Who We Are', ar: '١. من نحن' },
+      title: { en: '1. App, Developer & Legal Entity', ar: '١. التطبيق والمطوّر والكيان القانوني' },
       body: {
         en: [
-          'HAFCO — Big Movers is a heavy transport and logistics company based in Dammam, Eastern Province, Saudi Arabia, serving clients across the Kingdom since 1984.',
+          'This policy applies to the "Hafco Driver Portal" mobile application published on Google Play, and to the HAFCO — Big Movers website.',
+          'App title on Google Play: Hafco Driver Portal.',
+          'Developer name on Google Play: HAFCO.',
+          'Legal entity: شركة هادي سعيد فزعان القحطاني (Hadi Saeed Fazzaan Al-Qahtani), a heavy transport and logistics company based in Dammam, Eastern Province, Saudi Arabia, operating under the HAFCO — Big Movers brand and serving clients across the Kingdom since 1984.',
           'For any privacy question or request, contact us at info@hafcobigmover.com or call 0535557874.',
         ],
         ar: [
-          'هافكو — للنقل الثقيل هي شركة نقل ثقيل ولوجستيات مقرها الدمام، المنطقة الشرقية، المملكة العربية السعودية، وتخدم عملاءها في أنحاء المملكة منذ عام ١٩٨٤.',
+          'تنطبق هذه السياسة على تطبيق «بوابة سائق هافكو» (Hafco Driver Portal) المنشور على متجر Google Play، وعلى موقع هافكو — للنقل الثقيل.',
+          'اسم التطبيق على متجر Google Play: Hafco Driver Portal (بوابة سائق هافكو).',
+          'اسم المطوّر على متجر Google Play: HAFCO (هافكو).',
+          'الكيان القانوني: شركة هادي سعيد فزعان القحطاني، شركة نقل ثقيل ولوجستيات مقرها الدمام، المنطقة الشرقية، المملكة العربية السعودية، تعمل تحت اسم «هافكو — للنقل الثقيل» وتخدم عملاءها في أنحاء المملكة منذ عام ١٩٨٤.',
           'لأي استفسار أو طلب متعلق بالخصوصية، تواصلوا معنا عبر info@hafcobigmover.com أو على الرقم ٠٥٣٥٥٥٧٨٧٤.',
         ],
       },
-    },
     {
       title: { en: '2. Information We Collect', ar: '٢. المعلومات التي نجمعها' },
       body: {
