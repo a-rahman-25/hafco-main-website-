@@ -117,7 +117,12 @@ const handler = async (req: Request): Promise<Response> => {
     const safePhone = escapeHtml(phone);
     const safeMessage = escapeHtml(message);
 
-    const recipientEmails = ["mohamedhamed@hafcobigmover.com", "a.rahman@hafcobigmover.com"];
+    // Recipients are configured server-side (comma-separated) so staff addresses
+    // are not stored in the public source code.
+    const recipientEmails = (Deno.env.get("CONTACT_RECIPIENTS") ?? "info@hafcobigmover.com")
+      .split(",")
+      .map((e) => e.trim())
+      .filter(Boolean);
 
     const emailHtml = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
