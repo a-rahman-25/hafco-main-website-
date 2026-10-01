@@ -43,13 +43,14 @@ const ClientsGrid = () => {
             <div className="absolute top-3 left-3 w-2 h-2 border-t border-l border-gold/30 group-hover/card:border-gold transition-colors duration-300" />
             <div className="absolute bottom-3 right-3 w-2 h-2 border-b border-r border-gold/30 group-hover/card:border-gold transition-colors duration-300" />
 
-            <img
-              src={client.logo}
-              alt={language === 'ar' ? client.nameAr : client.name}
-              className="max-h-12 md:max-h-14 w-auto object-contain opacity-60 group-hover/card:opacity-100 transition-all duration-500"
-              style={{ filter: 'brightness(0) invert(1)' }}
-              loading="lazy"
-            />
+            <div className="w-full h-full bg-background rounded-sm flex items-center justify-center p-4 shadow-sm group-hover/card:scale-[1.04] transition-transform duration-500">
+              <img
+                src={client.logo}
+                alt={language === 'ar' ? client.nameAr : client.name}
+                className="max-h-12 md:max-h-14 max-w-full w-auto object-contain"
+                loading="lazy"
+              />
+            </div>
           </div>
         ))}
       </div>
