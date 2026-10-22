@@ -1,0 +1,3 @@
+- [ ] Replace Field Moments with contents after the cover and update page numbering and section references.
+- [ ] Replace General Projects bottom photos with the original blue Mercedes and blue MAN images.
+- [ ] Review all 20 pages and deliver v32 in the brochure collection.
