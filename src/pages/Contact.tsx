@@ -230,7 +230,7 @@ const Contact = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">{t('contact.location')}</h2>
                 <div className="rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.6882459044!2d50.0908!3d26.4207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e6db00000001%3A0x1234567890abcdef!2sEQGA2837%2C%20Dammam!5e0!3m2!1sen!2ssa!4v1703036400000!5m2!1sen!2ssa"
+                    src="https://maps.google.com/maps?q=26.7852,49.8450&z=15&output=embed"
                     width="100%"
                     height="450"
                     style={{ border: 0 }}

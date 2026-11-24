@@ -33,14 +33,14 @@ const privacyContent: LegalContent = {
           'This policy applies to the "Hafco Driver Portal" mobile application published on Google Play, and to the HAFCO — Big Movers website.',
           'App title on Google Play: Hafco Driver Portal.',
           'Developer name on Google Play: HAFCO.',
-          'Legal entity: شركة هادي سعيد فزعان القحطاني (Hadi Saeed Fazzaan Al-Qahtani), a heavy transport and logistics company based in Dammam, Eastern Province, Saudi Arabia, operating under the HAFCO — Big Movers brand and serving clients across the Kingdom since 1984.',
+          'Legal entity: شركة هادي سعيد فزعان القحطاني (Hadi Saeed Fazzaan Al-Qahtani), a heavy transport and logistics company registered in Dammam (CR 2050042846) and operating from Safwa, Eastern Province, Saudi Arabia, under the HAFCO — Big Movers brand and serving clients across the Kingdom since 1984.',
           'For any privacy question or request, contact us at info@hafcobigmover.com or call 0535557874.',
         ],
         ar: [
           'تنطبق هذه السياسة على تطبيق «بوابة سائق هافكو» (Hafco Driver Portal) المنشور على متجر Google Play، وعلى موقع هافكو — للنقل الثقيل.',
           'اسم التطبيق على متجر Google Play: Hafco Driver Portal (بوابة سائق هافكو).',
           'اسم المطوّر على متجر Google Play: HAFCO (هافكو).',
-          'الكيان القانوني: شركة هادي سعيد فزعان القحطاني، شركة نقل ثقيل ولوجستيات مقرها الدمام، المنطقة الشرقية، المملكة العربية السعودية، تعمل تحت اسم «هافكو — للنقل الثقيل» وتخدم عملاءها في أنحاء المملكة منذ عام ١٩٨٤.',
+          'الكيان القانوني: شركة هادي سعيد فزعان القحطاني، شركة نقل ثقيل ولوجستيات مسجلة في الدمام (سجل تجاري ٢٠٥٠٠٤٢٨٤٦) وتعمل من صفوى، المنطقة الشرقية، المملكة العربية السعودية، تحت اسم «هافكو — للنقل الثقيل» وتخدم عملاءها في أنحاء المملكة منذ عام ١٩٨٤.',
           'لأي استفسار أو طلب متعلق بالخصوصية، تواصلوا معنا عبر info@hafcobigmover.com أو على الرقم ٠٥٣٥٥٥٧٨٧٤.',
         ],
       },
@@ -144,11 +144,11 @@ const privacyContent: LegalContent = {
       title: { en: '9. Contact Us', ar: '٩. تواصلوا معنا' },
       body: {
         en: [
-          'HAFCO — Big Movers, Dammam, Eastern Province, Saudi Arabia.',
+          'HAFCO — Big Movers, 2837 Al Qatif 800 St, Safwa 32733, Eastern Province, Saudi Arabia.',
           'Email: info@hafcobigmover.com · Phones: 0535557874 · 0560676302 · 0504826306 · Work line (24/7): 0599990239.',
         ],
         ar: [
-          'هافكو — للنقل الثقيل، الدمام، المنطقة الشرقية، المملكة العربية السعودية.',
+          'هافكو — للنقل الثقيل، 2837 شارع القطيف 800، صفوى 32733، المنطقة الشرقية، المملكة العربية السعودية.',
           'البريد الإلكتروني: info@hafcobigmover.com · الهواتف: ٠٥٣٥٥٥٧٨٧٤ · ٠٥٦٠٦٧٦٣٠٢ · ٠٥٠٤٨٢٦٣٠٦ · خط العمل (٢٤/٧): ٠٥٩٩٩٩٠٢٣٩.',
         ],
       },
@@ -304,7 +304,7 @@ const LegalPage = ({ kind }: LegalPageProps) => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-gold shrink-0 mt-1" />
-                <span>{isAr ? 'الدمام، المنطقة الشرقية، المملكة العربية السعودية' : 'Dammam, Eastern Province, Saudi Arabia'}</span>
+                <span>{isAr ? '2837 شارع القطيف 800، صفوى 32733، المنطقة الشرقية، المملكة العربية السعودية' : '2837 Al Qatif 800 St, Safwa 32733, Eastern Province, Saudi Arabia'}</span>
               </li>
             </ul>
           </div>
