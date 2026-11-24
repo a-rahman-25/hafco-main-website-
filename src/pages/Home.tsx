@@ -90,6 +90,7 @@ const Home = () => {
                   transition={{ duration: 0.7, delay: 0.2 }}
                 >
                   {language === 'ar' ? 'هافكو' : 'HAFCO'}
+                  <span className="sr-only">{language === 'ar' ? ' للنقل الثقيل HAFCO Big Movers' : ' Big Movers'}</span>
                 </motion.h1>
                 <motion.div
                   className="-mt-3 bg-card px-4 py-1 border border-primary whitespace-nowrap"

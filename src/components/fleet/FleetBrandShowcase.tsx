@@ -190,7 +190,7 @@ const FleetBrandShowcase = ({ brand, index }: Props) => {
                 >
                   <img
                     src={src}
-                    alt=""
+                    alt={isAr ? `شاحنة ${brand.nameAr} من أسطول هافكو للنقل الثقيل في الدمام` : `HAFCO ${brand.nameEn} truck from the heavy transport fleet in Dammam`}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -207,7 +207,7 @@ const FleetBrandShowcase = ({ brand, index }: Props) => {
                 {brand.gallery[3] && (
                   <img
                     src={brand.gallery[3]}
-                    alt=""
+                    alt={isAr ? `معرض شاحنات ${brand.nameAr} لدى هافكو` : `HAFCO ${brand.nameEn} fleet gallery`}
                     loading="lazy"
                     className="absolute inset-0 w-full h-full object-cover opacity-25 group-hover:opacity-40 transition-opacity"
                   />

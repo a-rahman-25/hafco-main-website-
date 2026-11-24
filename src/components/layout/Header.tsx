@@ -77,9 +77,9 @@ const Header = () => {
               }`}
             />
             <div className="hidden sm:flex flex-col leading-none border-l-2 border-primary/60 pl-3">
-              <h1 className={`font-display text-primary transition-all duration-300 ${isScrolled ? 'text-base' : 'text-xl'}`}>
+              <span className={`font-display text-primary transition-all duration-300 ${isScrolled ? 'text-base' : 'text-xl'}`}>
                 {language === 'ar' ? 'هافكو' : 'HAFCO'}
-              </h1>
+              </span>
               <p className="font-stencil text-[10px] text-primary/70 mt-0.5">
                 {language === 'ar' ? 'للنقل الثقيل · ١٩٨٤' : 'BIG MOVERS · EST. 1984'}
               </p>

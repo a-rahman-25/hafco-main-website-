@@ -1,0 +1,1 @@
+- Per-route SEO (titles, descriptions, canonical, JSON-LD) lives in src/lib/seo.ts and is rendered by the Seo component in Layout; why: one source of truth for every route.

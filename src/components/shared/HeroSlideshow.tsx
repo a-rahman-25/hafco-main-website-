@@ -30,7 +30,7 @@ const HeroSlideshow = ({ images, interval = 10000, showTrucks = true }: HeroSlid
         >
           <img
             src={img}
-            alt=""
+            alt={`HAFCO Big Movers heavy transport operation in Dammam, Saudi Arabia (${idx + 1})`}
             className="w-full h-full object-cover"
           />
         </motion.div>
